@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Movie Poster Search</title>
+
+        <!-- http://jquery.com/ -->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+        <!-- Materialize Imports -->
+        <!-- Compiled and minified CSS & JavaScript -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+        <h1>Movie Posters</h1>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Enter Movie Name" id="movieName" type="text"/>
+              <label for="movieName">Search for a Movie Poster</label>
+            </div>
+            <div class="input-field col s6">
+              <div class="btn" id="submit">
+              <span>Search</span>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div id = "result"></div>
+        </div>
+        <script src="moviePoster.js"></script>
+
+    </body>
+</html>
